@@ -1,0 +1,32 @@
+Luego de ejecutar las 3 pruebas unitarias de codigo, obtenemos los siguientes resultados. Recordando que si la palabara es un polindromo retornara un true y caso contrario un false.
+
+    Test 1: Se hace un test enviado 2 palabras y 1 frase, todas polindromos y en cada una esperando un resultado true por lo que el test deberia ser OK.
+        Reconocer --> resultado True
+        SalAs --> resultado True
+        Anita lava la tiNa --> resultado True
+
+        Y en consola obteniendo los siguientes resultados:
+            ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
+
+    Test 2: Se hace un test enviado 2 palabras y 1 frase, ninguna polindromos y en cada una esperando un resultado false por lo que el test deberia ser OK.
+        Carro --> resultado False
+        ComputaciOn --> resultado False
+        El mejor momento del día es ahora --> resultado False
+
+        Y en consola obteniendo los siguientes resultados:
+            ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
+    
+    Test 3: Se hace un test enviado diferentes tipos de variables, ninguno polindromo y en cada una esperando un resultado false por lo que el test deberia ser OK.
+        5768 --> resultado False
+        "85.6" --> resultado False
+        [6,7,8,'Hola'] --> resultado False
+        {"word": 2} --> resultado False
+
+        Y en consola obteniendo los siguientes resultados:
+            ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
