@@ -17,3 +17,12 @@ Si tienes instalado python3 por aparte pueder hacerlo de la siguiente manera
 ~~~
 python3 test1.py
 ~~~
+
+Si todo ha salido correctamente se podran ver los siguientes resultados:
+
+~~~
+----------------------------------------------------------------------
+Ran 1 test in 0.000s
+
+OK
+~~~
