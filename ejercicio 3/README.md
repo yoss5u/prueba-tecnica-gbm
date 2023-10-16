@@ -12,7 +12,7 @@ En el archivo *ejercicio3.py* esta el codigo fuente para la solucion del ejercic
 Con los siguientes comando se puede ejecutar:
 
 ~~~
-python ejercicio2.py
+python ejercicio3.py
 ~~~
 
 Obtendremos mensajes que nos indican que valores ingresar y su respectiva respuesta, como veremos a continuacion: 
