@@ -1,0 +1,47 @@
+Luego de ejecutar el programa obtenemos los siguientes resultados por consola:
+
+How many cases do you want to try?: 5
+    1. Enter the value you want to reach: 1
+        The minimum number of jumps for this case is: 1
+    2. Enter the value you want to reach: 2
+        The minimum number of jumps for this case is: 3
+    3. Enter the value you want to reach: 3
+        The minimum number of jumps for this case is: 2
+    4. Enter the value you want to reach: 4
+        The minimum number of jumps for this case is: 3
+    5. Enter the value you want to reach: 5
+        The minimum number of jumps for this case is: 4
+
+Ahora con las 5 pruebas unitarias se realizaon las siguintes (Test1.py):
+
+    1. Se envio el valor 7 esperando el resultado 4
+    2. Se envio el valor 19 esperando el resultado 6
+    3. Se envio el valor 65 esperando el resultado 12
+    4. Se envio el valor 90 esperando el resultado 14
+    5. Se envio el valor 37 esperando el resultado 9
+
+Obteniendo el siguiente resultado por consola:
+    ----------------------------------------------------------------------
+    Ran 1 test in 0.000s
+
+    OK
+
+Seguidamente se verifico que el valor al que se desea verificar sea menor o igual a 106(Test2.py)
+    ----------------------------------------------------------------------
+    Ran 1 test in 0.000s
+
+    OK
+
+Por ultimo se realiza una prueba para confirmar si los datos varian con los correctos resultados:
+
+    1. Se envio el valor 7 esperando el resultado 4.99
+    2. Se envio el valor 19 esperando el resultado 8
+    3. Se envio el valor 65 esperando el resultado 12.00000001
+    4. Se envio el valor 90 esperando el resultado 5
+    5. Se envio el valor 37 esperando el resultado -9
+
+Obteniendo el siguiente resultado:
+    ----------------------------------------------------------------------
+    Ran 1 test in 0.000s
+
+    OK
