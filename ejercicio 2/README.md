@@ -6,7 +6,7 @@ Para este ejercicio es necesario contar con los siguientes requisitos:
 * Ambiente ya sea con Conda u otro administrador de ambientes
 * Para este ejercicio no se utilizo ninguna libreria ajena de Python 3.10
 
-En el archivo *ejercicio12.py* esta el codigo fuente para la solucion del ejercicio, en los archivos *test1.py*, *test2.py*, *test3.py*, y *test4.py* se encuentran las pruebas unitarias que se realizaron para la comprobacion del ejercicio, cada prueba se realizo a una funcion en especifico. Con los siguientes comando se puede ejecutar:
+En el archivo *ejercicio2.py* esta el codigo fuente para la solucion del ejercicio, en los archivos *test1.py*, *test2.py*, *test3.py*, y *test4.py* se encuentran las pruebas unitarias que se realizaron para la comprobacion del ejercicio, cada prueba se realizo a una funcion en especifico. Con los siguientes comando se puede ejecutar:
 
 ~~~
 python ejercicio2.py
