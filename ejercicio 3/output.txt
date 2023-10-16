@@ -34,11 +34,11 @@ Seguidamente se verifico que el valor al que se desea verificar sea menor o igua
 
 Por ultimo se realiza una prueba para confirmar si los datos varian con los correctos resultados:
 
-    1. Se envio el valor 7 esperando el resultado 4.99
-    2. Se envio el valor 19 esperando el resultado 8
-    3. Se envio el valor 65 esperando el resultado 12.00000001
-    4. Se envio el valor 90 esperando el resultado 5
-    5. Se envio el valor 37 esperando el resultado -9
+    1. Se envio el valor 7 esperando un resultado erroneo de 4.99
+    2. Se envio el valor 19 esperando un resultado erroneo de 8
+    3. Se envio el valor 65 esperando un resultado erroneo de 12.00000001
+    4. Se envio el valor 90 esperando un resultado erroneo de 5
+    5. Se envio el valor 37 esperando un resultado erroneo de -9
 
 Obteniendo el siguiente resultado:
     ----------------------------------------------------------------------
