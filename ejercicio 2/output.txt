@@ -1,0 +1,60 @@
+Luego de ejecutar el programa e insertar los siguientes valores:
+
+* Enter Grand Prix number and number of runners: 1 3
+* Enter result of the races: 3 2 1
+* Enter number of scoring systems: 3
+* Enter the scoring: 3 5 3 2
+* Enter the scoring: 3 5 3 1
+* Enter the scoring: 3 1 1 1
+
+Obtenemos los siguientes resultados
+
+* 3
+* 3
+* 1 2 3
+
+Ahora con las pruebas unitarias se obtiene lo siguiente:
+1. Prueba Unitaria en calcular los puntos 
+    Se le envian los siguientes valores para determinar si hace la suma de resultados correctamente:
+        * Resultados de la carrera: 3 2 1
+        * Sistema de puntaje: 3 5 3 2
+    
+    Para corroborar que la prueba paso, se compara con los resultados que se desean obtener en este caso 2, 3, 5
+    En consola obteniendo los siguientes resultados:
+        ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
+
+2. Prueba Unitaria en Obtener GrandPrix y cantidad de corredores.
+    Se envian los siguientes valores:
+        * 3 10
+        * 0 0
+    Esperando los siguientes valores: 
+        * (3, 10)
+        * (0, 0)
+    Obteniendo en consola el siguiente resultado:
+    ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
+
+3. Prueba Unitaria en Obtener resultados:
+    Se envian los siguientes valores 
+        * '1 2 3\n', '3 2 1\n'
+    Esperando los siguientes resultados:
+        * [[1, 2, 3], [3, 2, 1]]
+    Obtienendo en consola el siguiente resultado:
+        ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
+
+4. Prueba Unitaria en Obtener los sistemas de puntaje
+    Se le envian los siguientes datos:
+        * '2\n', '5 5 4 3 2 1\n', '3 10 5 1\n'
+        * Resultados de las carreras : 1 2 3
+        * Resultado de las carreras : 3 2 1
+    Se espera el siguiente resultado:
+        * '2\n', '5 5 4 3 2 1\n', '3 10 5 1\n'
+    Obteniendo en cosola los siguientes resultados:
+        ----------------------------------------------------------------------
+            Ran 1 test in 0.000s
+            OK
