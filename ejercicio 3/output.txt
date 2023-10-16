@@ -40,6 +40,8 @@ Por ultimo se realiza una prueba para confirmar si los datos varian con los corr
     4. Se envio el valor 90 esperando un resultado erroneo de 5
     5. Se envio el valor 37 esperando un resultado erroneo de -9
 
+Aqui buscamos que la funcion no devuelva resultados erroneos o que tome en cuenta valores aproximados o negativos.
+
 Obteniendo el siguiente resultado:
     ----------------------------------------------------------------------
     Ran 1 test in 0.000s
