@@ -8,3 +8,7 @@ To run the first 3 exercises you can use the next online compiler with python 3.
 
 
 - [Online Python Compiler](https://www.programiz.com/python-programming/online-compiler/)
+
+
+To run the last exercise you maybe need: 
+- [Google Colab](https://colab.research.google.com/)
