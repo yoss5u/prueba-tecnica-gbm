@@ -1,0 +1,27 @@
+Luego de construir el Modelo de Clasificacion podemos ejecutar el archivo main.py
+
+Con los siguientes valores:
+    * Total de compras: 1525
+    * Frecuencia de compra: 25
+Obtenemos el siguien resultado:
+    1/1 [==============================] - 0s 83ms/step
+    Qualified customer High
+
+Que significa que con esos valores el cliente se clasifica como cliente alto
+
+Ahora con las 3 pruebas unitarias con los siguiente valores. 
+    * prediction = realice_prediction(1525, 25) - Esperando un valor de 3
+    * prediction = realice_prediction(779, 10) - Esperando un valor de 1
+    * prediction = realice_prediction(1122, 15) - Esperando un valor de 2
+
+Obtenemos el siguiente resultado:
+1/1 [==============================] - 0s 42ms/step
+1/1 [==============================] - 0s 42ms/step
+1/1 [==============================] - 0s 45ms/step
+.
+----------------------------------------------------------------------
+Ran 3 tests in 0.394s
+
+OK
+
+Que significa que ha pasado las pruebas unitarias. Es decir, los resultados son los correctos.
